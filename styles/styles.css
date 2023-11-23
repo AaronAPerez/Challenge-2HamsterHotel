@@ -1,0 +1,429 @@
+
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+3:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+nav.navbar.navbar-expand-sm.bg-light.justify-content-evenly{
+  background-color: #000324 !important;
+}
+
+
+ul.navbar-nav {
+  display: flex;
+  justify-content:space-between;
+  padding-bottom: 0;
+}
+
+a.nav-link {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+  font: normal normal normal 20px/26px Dosis;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.nav-item.active {
+border: 2px solid #E5FEFF;
+opacity: 1;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.nav-item :hover {
+  border: 2px solid #E5FEFF;
+  color: lightseagreen;
+}
+
+
+li.nav-item {
+display: flex;
+align-self: last baseline;
+border-style: solid;
+border-left: 10px;
+border-right: 10px;
+text-decoration: solid;
+border: 5px;
+}
+
+
+#thehero {
+  width: 100%;
+     height: 65vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-image: url('/Images/headerRESIZE.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } 
+
+  
+div.tranparent-box {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding-top: 5%;
+   margin: 0;
+    background: #000324 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+  }
+
+h1.text-center {
+  text-align: center;
+  font: normal normal normal 45px/57px Dosis;
+  letter-spacing: 0px;
+  color: #E5FEFF;
+  opacity: 1;
+}
+
+p.test-center.hero {
+  text-align: center;
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #E5FEFF;
+  opacity: 1;
+}
+  
+.row.\32 {
+  margin: 0;
+  padding-top: 5%;
+
+}
+  
+#Paradise {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+h1.card-title-paradise {
+  text-align: left;
+  padding-left: 0;
+  font: normal normal normal 35px/44px Dosis;
+  letter-spacing: 0px;
+  color: #1A1B26;
+  opacity: 1;
+}
+
+p.card-body-paradise {
+  padding-left: 0px;
+}
+
+
+.col-sm-4{
+  padding-right: 0%;
+}
+
+div.d-flex.align-items-end.justify-content-evenly {
+  padding: 20px;
+
+}
+
+
+.card-text-paradise { 
+
+text-align: left;
+margin-left: 10px;
+margin-bottom: 15px;
+font: normal normal normal 16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+} 
+
+
+
+.card-text-packages{
+font: normal normal normal 16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+}
+
+
+  
+#Rooms {
+  padding-top: 1%;
+  padding-bottom: 8%;
+  justify-content: center;
+  align-items: center;
+      text-align: left;
+      background-image: url('/Images/bg2.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+
+  h1.ourrooms.text-center.my-5 {
+    text-align: center;
+    font: normal normal normal 35px/44px Dosis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+  ul.rooms.list {
+      padding-top: 5px;
+      padding-left: 10px;
+  }
+  .col-md-4 {
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+
+  .ourrooms {
+    text-align: center;
+    align-items: center;
+    font: normal normal normal 35px/44px Dosis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+
+.card-body.rooms {
+  padding-left: 15px;
+}
+
+  .card {
+    border-radius: 0% !important;
+    border-style: none;
+  }
+
+  .card-img-top {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    object-fit: cover;
+  }
+
+.fw-bold{
+  text-align: left;
+  font: normal normal bold 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #1A1B26;
+  opacity: 1;
+}
+
+  .card-body{
+    padding: 10px;
+    padding-top: 20px;
+    height: 320px !important;
+    background-color: #fff;
+    color: #1A1B26;
+  }
+
+  .text-start {
+    text-align: left;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #1A1B26;
+    opacity: 1;
+  }
+
+
+
+.card-group {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.btn.btn-primary {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font: normal normal bold 20px/25px Source Sans Pro !important;
+  font-weight: 550 !important;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  background: #004CC7 0% 0% no-repeat padding-box;
+
+}
+
+
+.col-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+h1 {
+  color: #1A1B26;
+  text-size-adjust: 35px;
+  padding: 1%;
+}
+
+#Packages{
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+h1.text-center.my-5 {
+  margin-bottom: 20px !important;
+  text-align: center;
+  font: normal normal normal 35px/44px Dosis;
+  letter-spacing: 0px;
+  color: #1A1B26;
+  opacity: 1;
+  }
+
+
+.card-title-package {
+  text-align: left;
+  font: normal normal normal 25px/32px Dosis;
+  letter-spacing: 0px;
+  margin-bottom: 0;
+  color: #1A1B26;
+  opacity: 1;
+}
+
+.card-body-package {
+  padding-left: 0;
+  margin-top: 2%;
+  padding-top: 2%;
+}
+
+.fw-light {
+  text-align: left;
+  margin-top: 10px;
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #1F51A8;
+  opacity: 1;
+}
+
+.card-text-package {
+  text-align: left;
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #1A1B26;
+  opacity: 1;
+}
+
+
+
+#Amenities {
+    padding-top: 3%;
+    padding-bottom: 7%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-image: url('/Images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1.text-center {
+  text-align: left;
+  font: normal normal normal 35px/44px Dosis;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  }
+
+
+
+p.text-center {
+  padding-bottom: 6%;
+  text-align: center;
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+p.text-center.Amenities {
+  padding-top: 8%;
+  text-align: left;
+  font: normal normal bold 20px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.img-fluid-amenties {
+  justify-content: center;
+  text-align: center;
+}
+
+#Reserve {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+    
+.card-title-reserve {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font: normal normal normal 35px/44px Dosis;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+    }
+
+
+.col-auto {
+  padding-bottom: 45px;
+}
+
+
+#card-body\ Reserve {
+    padding-bottom: 5%;
+    color: #FFFFFF;
+    background: #000324 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+
+    .card-img-bottom {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+
+    }
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 10px;
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #E5FEFF;
+  opacity: 1;
+  background: #000324 0% 0% no-repeat padding-box;
+}
+
+.row-footer {
+  padding-top: 0%;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #000324 ;
+  background-image: transparent url('/Images/Logo.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+
+
+
+
+
+    
