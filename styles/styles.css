@@ -59,7 +59,7 @@ border: 5px;
     text-align: center;
     align-items: center;
     color: #FFFFFF;
-    background-image: url('/Images/headerRESIZE.jpg');
+    background-image: url('/images/headerRESIZE.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ opacity: 1;
   justify-content: center;
   align-items: center;
       text-align: left;
-      background-image: url('/Images/bg2.jpg');
+      background-image: url('/images/bg2.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -321,7 +321,7 @@ h1.text-center.my-5 {
     justify-content: center;
     align-items: center;
     text-align: left;
-    background-image: url('/Images/bg.jpg');
+    background-image: url('/images/bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -417,7 +417,7 @@ p.text-center.Amenities {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #000324 ;
-  background-image: transparent url('/Images/Logo.png') 0% 0% no-repeat padding-box;
+  background-image: transparent url('/images/Logo.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
